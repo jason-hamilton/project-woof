@@ -1,0 +1,83 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #E3D7FF;
+	color: #000000;
+}
+
+header, footer {
+	background-color: #AFA2FF;
+}
+
+header {
+	margin-bottom: 25px;
+	text-align: center;
+	font-size: 180%;
+	border-style: double;
+	border-radius: 5px;
+	border-width: 10px;
+	border-color: #E3D7FF;
+}
+
+header h1 {
+	display: inline-block;
+	color: #000000;
+	margin: 0px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	padding: 20px 42px;
+}
+
+footer span {
+	display: block;
+	color: #000000;
+	margin: 0px;
+	border-style: double;
+	border-radius: 5px;
+	border-width: 10px;
+	border-color: #E3D7FF;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 20px;
+	font-weight: bold;
+	text-align: center;
+	width: calc(100% - 40px);
+	font-size: 10pt;
+}
+
+h2, h3 {
+	color: #000000;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 150%;
+}
+
+div#main-cont {
+	margin: auto 20%;
+	margin-bottom: 5%;
+	overflow: hidden;
+	border-style: double;
+	border-radius: 5px;
+	border-width: 10px;
+	border-color: #7A89C2;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	font-size: 100%;
+	text-align: center;
+	list-style-position: inside;
+}
+
+div#main-cont h1 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+div#main-cont img {
+	display: inline-block;
+	width: 30%;
+	height: 150px;
+	margin-top: 0.5%;
+	text-align: center;
+	border-radius: 50%;
+}
